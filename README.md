@@ -39,7 +39,7 @@ Currently, I’m focused on:
 ---
 
 ## 📫 Contact
-- Email: your-email@example.com  
+- Email: [innocentdzowera@gmail.com](innocentdzowera@gmail.com)  
 - LinkedIn: [linkedin.com/in/innocent-dzowera-a31477274](www.linkedin.com/in/innocent-dzowera-a31477274)  
 - GitHub: [github.com/dzowera](https://github.com/dzowera)  
 
