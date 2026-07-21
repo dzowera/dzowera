@@ -30,74 +30,12 @@
       <p class="hero-text">
         I build thoughtful digital experiences for ambitious people and brands who want presence, clarity, and impact.
       </p>
-      <div class="filter-bar" aria-label="Project categories">
-        <button class="filter-chip active">All</button>
-        <button class="filter-chip">Web Design</button>
-        <button class="filter-chip">Branding</button>
-        <button class="filter-chip">Development</button>
-      </div>
+      <div id="filter-bar" class="filter-bar" aria-label="Project categories"></div>
     </section>
 
-    <section class="work-grid" aria-label="Portfolio projects">
-      <article class="work-card featured">
-        <div class="work-card-top">
-          <span class="work-tag">Featured</span>
-          <span class="work-tag">Web Design</span>
-        </div>
-        <h3>Luxury Landing Experience</h3>
-        <p>A premium, minimalist landing page crafted for a high-end client aiming to feel exclusive from the first scroll.</p>
-        <a href="#contact">View project</a>
-      </article>
-
-      <article class="work-card">
-        <div class="work-card-top">
-          <span class="work-tag">Branding</span>
-          <span class="work-tag">UI</span>
-        </div>
-        <h3>Creative Portfolio Site</h3>
-        <p>A refined personal website that balances confidence, clarity, and a modern visual language.</p>
-        <a href="#contact">View project</a>
-      </article>
-
-      <article class="work-card">
-        <div class="work-card-top">
-          <span class="work-tag">Development</span>
-          <span class="work-tag">Responsive</span>
-        </div>
-        <h3>Fast Business Platform</h3>
-        <p>A polished digital presence designed for speed, usability, and a memorable first impression.</p>
-        <a href="#contact">View project</a>
-      </article>
-
-      <article class="work-card">
-        <div class="work-card-top">
-          <span class="work-tag">Strategy</span>
-          <span class="work-tag">Concept</span>
-        </div>
-        <h3>Identity System Build</h3>
-        <p>A complete visual direction with a confident, timeless style that pairs beautifully with digital experiences.</p>
-        <a href="#contact">View project</a>
-      </article>
-
-      <article class="work-card">
-        <div class="work-card-top">
-          <span class="work-tag">Frontend</span>
-          <span class="work-tag">Modern</span>
-        </div>
-        <h3>Interactive Product Page</h3>
-        <p>A clean product experience focused on storytelling, motion, and conversion without clutter.</p>
-        <a href="#contact">View project</a>
-      </article>
-
-      <article class="work-card">
-        <div class="work-card-top">
-          <span class="work-tag">Launch</span>
-          <span class="work-tag">Conversion</span>
-        </div>
-        <h3>Launch-Ready Campaign Site</h3>
-        <p>A high-impact landing page designed to make a strong first impression and drive action quickly.</p>
-        <a href="#contact">View project</a>
-      </article>
+    <section aria-label="Portfolio projects">
+      <div id="work-grid" class="work-grid"></div>
+      <p id="work-empty-state" class="empty-state" hidden>No projects match this category yet.</p>
     </section>
 
     <section class="section process-section">
@@ -180,5 +118,8 @@
       <p>© 2026 Innocent Dzowera. Crafted with intention.</p>
     </div>
   </footer>
+
+  <script src="data.js"></script>
+  <script src="scripts.js"></script>
 </body>
 </html>

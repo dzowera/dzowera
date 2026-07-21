@@ -141,6 +141,15 @@ main {
   gap: 1rem;
 }
 
+.empty-state {
+  margin-top: 1rem;
+  padding: 1rem 1.2rem;
+  border: 1px dashed var(--border);
+  border-radius: 16px;
+  color: var(--muted);
+  background: rgba(255, 255, 255, 0.55);
+}
+
 .work-card {
   background: var(--surface);
   border: 1px solid var(--border);
@@ -190,6 +199,19 @@ main {
   color: var(--accent);
   font-weight: 700;
   text-decoration: none;
+}
+
+.work-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  margin-top: 1rem;
+}
+
+.work-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
 }
 
 .process-grid {
