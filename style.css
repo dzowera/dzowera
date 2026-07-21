@@ -96,6 +96,11 @@ img {
   transform: translateY(-2px);
 }
 
+.site-nav a.active:hover {
+  color: #fff;
+  background: var(--accent);
+}
+
 .site-nav a.active {
   color: var(--accent);
   position: relative;
