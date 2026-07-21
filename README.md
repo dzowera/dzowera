@@ -39,8 +39,8 @@ Currently, I’m focused on:
 ---
 
 ## 📫 Contact
-- Email: [innocentdzowera@gmail.com](innocentdzowera@gmail.com)  
-- LinkedIn: [linkedin.com/in/innocent-dzowera-a31477274](www.linkedin.com/in/innocent-dzowera-a31477274)  
+- Email: [innocentdzowera@gmail.com](mailto:innocentdzowera@gmail.com)  
+- LinkedIn: [linkedin.com/in/innocent-dzowera-a31477274](https://www.linkedin.com/in/innocent-dzowera-a31477274)  
 - GitHub: [github.com/dzowera](https://github.com/dzowera)  
 
 ---
